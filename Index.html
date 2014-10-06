@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-app="app">
+
+<ul>
+    <li><a ui-sref="home">Home</a></li>
+    <li><a ui-sref="list">Lists</a></li>
+</ul>
+
+<div ui-view=""></div>
+
+
+
+<!-- Angular -->
+<script src="app/js/angular/angular.min.js"></script>
+<script src="app/js/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+<!-- App -->
+<script src="app/js/app.js"></script>
+
+<!-- Controllers -->
+<script src="app/js/controller/myController.js"></script>
+
+<!-- Services -->
+<script src="app/service/list.js"></script>
+
+
+
+
+</body>
+</html>
